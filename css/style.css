@@ -26,8 +26,8 @@ canvas{
 
 /* Lo que nos pondra en una caja los botones de aumentar , disminuir , cambiar color y limpiar */
 .toolbox {
-    background-color: #2477e2;
-    border: 2px solid #2477e2;
+    background-color: #ac24e2;
+    border: 2px solid #ac24e2;
     display: flex;
     width: 380px;
     padding: 1rem;
