@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/* Aqui tenemos el codigo csss que se encargara de darle una vista bonita a nuestra App */
+*{
+    box-sizing: border-box;
+
+}
+
+/* El color , texto y ademas longitud del cuerpo de la app */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+/* El que se encargara de donde se puede pintar */
+canvas{
+    border: 2px solid #2477e2;
+ 
+}
+
+/* Lo que nos pondra en una caja los botones de aumentar , disminuir , cambiar color y limpiar */
+.toolbox {
+    background-color: #2477e2;
+    border: 2px solid #2477e2;
+    display: flex;
+    width: 380px;
+    padding: 1rem;
+
+}
+
+.toolbox>* {
+    background-color:#fff ;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: rem;
+    height: 50px;
+    width: 50px;
+    margin: 0.25rem;
+    padding: 0.25rem;
+    cursor: pointer;
+
+}
+
+.toolbox>*:last-child{
+    margin-left: auto;
+}
+
+button, #size, input{
+    border-radius: 5px;
+
+}
