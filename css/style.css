@@ -20,7 +20,7 @@ body {
 }
 /* El que se encargara de donde se puede pintar */
 canvas{
-    border: 2px solid #2477e2;
+    border: 2px solid #ac24e2;
  
 }
 
@@ -29,7 +29,7 @@ canvas{
     background-color: #ac24e2;
     border: 2px solid #ac24e2;
     display: flex;
-    width: 380px;
+    width: 385px;
     padding: 1rem;
 
 }
@@ -40,7 +40,7 @@ canvas{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: rem;
+    font-size: 2rem;
     height: 50px;
     width: 50px;
     margin: 0.25rem;
